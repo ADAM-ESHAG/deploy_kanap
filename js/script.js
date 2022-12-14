@@ -1,5 +1,5 @@
 /*********On fetch le URL pour récupérer et afficher la data **********/
-let url = "https://kanap-0r7g.onrender.com/api/products";
+let url = "https://kanap.onrender.com/api/products";
 fetch(url).then((response) =>
   response.json().then((data) => {
     console.log(data);
