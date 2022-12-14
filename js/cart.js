@@ -7,7 +7,7 @@ if (productInLocalstorage === null) {
 } else {
   // Si le panier n'est pas vide
   // On fetch pour récupérer le prix du produit
-  let url = "http://localhost:3000/api/products";
+  let url = "https://kanap-9guc.onrender.com/api/products";
   fetch(url).then((response) =>
     response.json().then((data) => {
       for (let i = 0; i < productInLocalstorage.length; i++) {

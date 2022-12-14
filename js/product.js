@@ -3,7 +3,7 @@ const search_params = new URLSearchParams(window.location.search);
 const productId = search_params.get("id");
 
 //-------Afficher le produit cliqué à partir de la page d'accueil--------
-fetch(`http://localhost:3000/api/products/${productId}`).then((response) =>
+fetch(`https://kanap-9guc.onrender.com/api/products/${productId}`).then((response) =>
   response.json().then((data) => {
     // *******Insertion des éléments HTML******
     // Insertion d'image
