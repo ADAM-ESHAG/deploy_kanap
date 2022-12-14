@@ -294,7 +294,7 @@ if (productInLocalstorage === null) {
           };
 
           // *****Envoie Les données contact et products au serveur avec Requete POST************
-          fetch(`http://localhost:3000/api/products/order`, {
+          fetch(`https://kanap-9guc.onrender.com/api/products/order`, {
             method: "POST",
             body: JSON.stringify(form),
             headers: {
